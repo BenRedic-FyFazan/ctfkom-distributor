@@ -12,7 +12,7 @@ import threading
 import time
 
 LISTEN_PORT = 2222
-DOCKER_IMAGE = "ctf_test4"
+DOCKER_IMAGE = "ctf_test"
 
 socket_lock = threading.Lock()
 client = docker.from_env()

@@ -1,8 +1,9 @@
 #!/bin/bash
-sudo apt-get update -y && sudo apt update -y
+sudo apt-get update -y 
+sudo apt update -y
 sudo apt-get install -y git net-tools 
-sudo apt install python3-pip
-pip install docker
+sudo apt install python3-pip -y
+pip install docker -y
 
 sudo ufw allow 2222/tcp
 
